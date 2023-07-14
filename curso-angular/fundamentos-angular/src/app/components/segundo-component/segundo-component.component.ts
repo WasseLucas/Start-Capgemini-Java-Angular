@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./segundo-component.component.css']
 })
 export class SegundoComponentComponent {
-
+  
+  //interpolaçao de texto
   nome ="Wasse Lucas";
   dataNascimento = "1995-01-01";
   urlImagem = "/assets/miranha.jpg" ;
