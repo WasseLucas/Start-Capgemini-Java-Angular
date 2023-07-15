@@ -1,4 +1,4 @@
-export interface celular{
+export interface Celular{
   id: number ;
   nome: string;
   descricao?: string;
