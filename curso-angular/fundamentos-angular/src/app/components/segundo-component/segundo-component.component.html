@@ -1,0 +1,6 @@
+<body>
+	<img [src]="urlImagem" width="300px">
+	<p>{{nome | uppercase}}</p>
+	<p> Data nascimento: {{dataNascimento | date: "dd/MM/yyyy"}}</p>
+	<button (click)="mostrarDataNascimento()" type="button">Mostra data de nascimento</button>
+</body>
