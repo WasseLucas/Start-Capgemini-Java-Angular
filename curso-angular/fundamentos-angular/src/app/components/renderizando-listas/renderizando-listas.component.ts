@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { celular } from 'src/app/types/celular';
+import { Celular } from 'src/app/types/celular';
 
 @Component({
   selector: 'app-renderizando-listas',
@@ -8,7 +8,7 @@ import { celular } from 'src/app/types/celular';
 })
 export class RenderizandoListasComponent {
 
-  celulares: celular[]=[
+  celulares: Celular[]=[
     {id:1, nome:"Iphone X",descricao: "Apple",esgotado: false},
     {id:2, nome:"Iphone 5",esgotado: true},
     {id:3, nome:"Iphone XS",descricao: "Apple",esgotado: false}
